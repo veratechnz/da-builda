@@ -1,0 +1,18 @@
+<!doctype html>
+<html ng-app="Workflow">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="main.css">
+</head>
+<body ng-controller="ToolsCtrl">
+	<h1>Workflow tools from this chapter:</h1>
+	<ul>
+		<li ng-repeat="tool in tools">
+			{{tool}}
+		</li>
+	</ul>
+	<script src="bower_components/angular/angular.js"></script>
+	<script src="app.js"></script>
+</body>
+</html>
